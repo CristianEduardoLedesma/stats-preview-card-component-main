@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&family=Outfit&display=swap');
+
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	max-width: 1440px;
+	min-width: 375px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: hsl(233, 47%, 7%);
+
+}
+
+.tarjeta {
+	margin-top: 150px ;
+	width: 900px;
+	height: 350px;
+	background: hsl(244, 38%, 16%);
+	display: flex;
+	border-radius: 5px;
+	color: white;
+}
+
+.section-left {
+	width: 450px;
+}
+
+.titulo {
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 30px;
+	margin: 50px 50px 15px 50px;
+}
+
+.texto {
+	font-family: 'Inter', sans-serif;
+	font-size: 15px;
+	margin: 0 50px 10px 50px;
+}
+.stats {
+	display: flex;
+	font-size: 15px;
+	justify-content: space-around;
+
+}
+.items {
+	margin-top: 40px;
+	text-align: center;
+}
+.num {
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.nom {
+	font-family: 'Inter', sans-serif;
+
+}
+
+.imagen {
+	width: 450px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	filter: opacity(0.4) drop-shadow(0 0 0 hsl(277, 64%, 61%)); 
+}
+
+span { 
+	color: hsl(277, 64%, 61%);
+}
+
+.attribution {
+	font-family: 'Lexend Deca', sans-serif;
+	margin: 20px;
+	color: white;
+}
